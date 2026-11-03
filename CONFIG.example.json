@@ -1,0 +1,25 @@
+{
+  "elm": {
+    "enabled": false,
+    "observe_only": true,
+    "retrieval_enabled": false,
+    "injection_enabled": false,
+    "async_learning_enabled": false,
+    "database_path": "./state/elm/elm.sqlite3",
+    "max_candidates": 10,
+    "max_injected_items": 3,
+    "max_injected_tokens": 500,
+    "queue_max": 200,
+    "write_timeout_ms": 1000,
+    "learning_timeout_ms": 5000,
+    "daily_learning_calls": 10,
+    "retention_days": 365,
+    "scope_mode": "account-conversation",
+    "log_redaction": true
+  },
+  "receipt": {
+    "require_confirmed": true,
+    "require_message_id": true,
+    "allow_status_retcode_only": false
+  }
+}
